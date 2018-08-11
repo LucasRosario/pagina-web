@@ -50,14 +50,28 @@
 
       </div>
     </header>
-
     <section id="contato">
-      <div= class="container">
+      <div class="container">
         <h1 class="text-center">Contato</h1>
-        <div></div>
-      </div>
+        <form class="text-center" action="index.html" method="post">
+          <p>
+            <!-- <label for="txt-name">Nome:</label> -->
+            <input class="form-control" type="text" id="txt-name" placeholder="Nome">
+          </p>
+          <p>
+            <!-- <label for="txt-email">E-mail:</label> -->
+            <input class="form-control" type="email" id="txt-email" placeholder="E-mail">
+          </p>
+          <p>
+            <!-- <label for="txt-mensagem">Mensagem:</label> -->
+            <textarea class="form-control" id="txt-mensagem" placeholder="Mensagens"></textarea>
+          </p>
+          <p>
+            <input class="form-control btn btn-danger" type="submit" value="Enviar">
+          </p>
+        </form>
+  </div>
     </section>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
